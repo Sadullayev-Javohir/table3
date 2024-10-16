@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 100%;
+            text-align: left;
+            border-collapse: collapse;
+            box-shadow: -1px 0px 14px 2px rgba(0,0,0,0.20);
+            -webkit-box-shadow: -1px 0px 14px 2px rgba(0,0,0,0.20);
+            -moz-box-shadow: -1px 0px 14px 2px rgba(0,0,0,0.20);
+        }
+
+        tr th {
+            background-color: rgb(223, 222, 222);
+            padding: 6px;
+        }
+        th {
+            color: rgba(0, 0, 0, 0.847);
+        }
+        td, th {
+            border: 1px solid black;
+            font-family: sans-serif;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <!-- Thead -->
+
+        <thead>
+            <tr>
+                <th rowspan="2">ID</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Gardes</th>
+                <th rowspan="2">Average</th>
+            </tr>
+            <tr>
+                <th>Subject</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+
+        <!-- Tbody -->
+
+        <tbody>
+
+            <!-- 1-qator -->
+
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">John Doe</td>
+                <td>Math</td>
+                <td>A(4)</td>
+                <td rowspan="9"></td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>B3</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>A(4)</td>
+            </tr>
+
+            <!-- 2-qator -->
+
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3">Jane Smith</td>
+                <td>Math</td>
+                <td>B(3)</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>A(4)</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>A(4)</td>
+            </tr>
+
+            <!-- 3-qator -->
+
+            <tr>
+                <td rowspan="3">3</td>
+                <td rowspan="3">Emily Johnson</td>
+                <td>Math</td>
+                <td>C(2)</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>B(3)</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>B(3)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td colspan="2">Average:</td>
+                <td>B(3)</td>
+            </tr>
+        </tbody>
+    </table>    
+</body>
+</html>

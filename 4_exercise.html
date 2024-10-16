@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            width: 100%;
+            text-align: left;
+            border-collapse: collapse;
+            box-shadow: -1px 0px 14px 2px rgba(0,0,0,0.20);
+            -webkit-box-shadow: -1px 0px 14px 2px rgba(0,0,0,0.20);
+            -moz-box-shadow: -1px 0px 14px 2px rgba(0,0,0,0.20);
+        }
+
+        tr th {
+            background-color: rgb(223, 222, 222);
+            padding: 6px;
+        }
+        th {
+            color: rgba(0, 0, 0, 0.847);
+        }
+        td, th {
+            border: 1px solid black;
+            font-family: sans-serif;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <!-- thead -->
+
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Student RegNo.</th>
+                <th>Subject Name</th>
+                <th>Obtained Marks</th>
+                <th>Total Marks</th>
+                <th>Average Marks</th>
+            </tr>
+        </thead>
+
+        <!-- tbody -->
+
+        <tbody>
+
+            <!-- 1 -->
+
+            <tr>
+                <td rowspan="3">Alan</td>
+                <td rowspan="3">Std-01</td>
+                <td>Math</td>
+                <td>50.00</td>
+                <td rowspan="3">150.00</td>
+                <td rowspan="3">50.00</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>50.00</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>50.00</td>
+            </tr>
+
+            <!-- 2 -->
+
+            <tr>
+                <td rowspan="3">Scott</td>
+                <td rowspan="3">Std-01</td>
+                <td>Math</td>
+                <td>50.00</td>
+                <td rowspan="3">150.00</td>
+                <td rowspan="3">50.00</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>50.00</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>50.00</td>
+            </tr>
+
+            <!-- 3 -->
+
+            <tr>
+                <td rowspan="3">John</td>
+                <td rowspan="3">Std-01</td>
+                <td>Math</td>
+                <td>50.00</td>
+                <td rowspan="3">150.00</td>
+                <td rowspan="3">50.00</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>50.00</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>50.00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
